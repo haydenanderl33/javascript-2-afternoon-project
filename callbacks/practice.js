@@ -28,7 +28,14 @@
 */
 
 // Code Here 
+function first(function name){
+  
+}
+function sayName(cb){
+  cb('Gandalf')
+}
 
+sayName(first)
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
