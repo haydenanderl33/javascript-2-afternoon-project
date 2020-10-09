@@ -126,7 +126,15 @@ contains(names, 'Colt', function(result){
 */
 
 //Code Here
-
+function uniq(myArr, callback){
+  let myNewArr = []
+  for(let i = 0; i < myArr.length; i++){
+    if(!myNewArr.includes(myArr[i])){
+      myNewArr.push(myArr[i])
+    }
+  }
+  callback(myNewArr)
+}
 
 
 // Do not edit the code below.
@@ -145,6 +153,13 @@ uniq(names, function(uniqArr){
 */
 
 //Code Here 
+function each(namesArr,callback){
+  for(let i = 0; i < namesArr.length; i++){
+  
+      callback(namesArr[i], i)
+  }
+
+ }
 
 // Do not edit the code below.
 each(names, function(item, indice){
