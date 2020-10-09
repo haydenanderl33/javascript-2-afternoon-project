@@ -129,6 +129,20 @@ var numbersArray = [1,2,34,54,55,34,32,11,19,17,54,66,13];
 */
 
 //Code Here
+function divider(numss){
+    let odds = []
+    let evens = []
+    for(i = 0; i < numss.length; i++){
+      if(numss[i] % 2 === 0) {
+          evens.push(numss[i])
+      } 
+      else{
+          odds.push(numss[i])
+      }
+    }
+    console.log([evens,odds])
+    return [evens,odds]
+  } 
 
 
 ////////// PROBLEM 7 //////////
