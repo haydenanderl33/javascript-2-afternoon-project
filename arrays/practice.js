@@ -140,7 +140,7 @@ function divider(numss){
           odds.push(numss[i])
       }
     }
-    console.log([evens,odds])
+    //console.log([evens,odds])
     return [evens,odds]
   } 
 
